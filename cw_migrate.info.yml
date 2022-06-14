@@ -1,0 +1,14 @@
+name: ColdWorld migrate in Drupal
+type: module
+description: 'Migration from Magento to Drupal'
+package: Custom
+core_version_requirement: ^8.8.0 || ^9
+dependencies:
+  - drupal:migrate
+  - migrate_plus
+  - migrate_tools
+
+ # Information added by Drupal.org packaging script on 2022-02-01
+version: '9.x-1.0'
+project: 'custom_sql_migrate_plugin'
+datestamp: 1643744728
